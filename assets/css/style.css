@@ -7,7 +7,7 @@
   --color-white: rgb(255, 255, 255);
 
   --text-color-second: rgb(68, 68, 68);
-  --text-color-third: rgb(30, 169, 171);
+  --text-color-third: rgb(30, 159, 171);
 
   --first-color: rgb(110, 87, 224);
   --first-color-hover: rgb(40, 91, 212);
@@ -21,7 +21,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: boder-box;
+  box-sizing: border-box;
   font-family: "Poppins", "sans-serif";
 }
 /*Smooth scroll*/
@@ -40,6 +40,7 @@ html {
 
 ::webkit-scrollbar-thumb {
   background: #ccc;
+  border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -54,7 +55,7 @@ html {
   padding: 12px 20px;
   background: #ccc;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -77,7 +78,7 @@ body {
 }
 
 /*Conatainer design*/
-.Conatainer {
+.container {
   width: 100%;
   position: relative;
 }
@@ -91,7 +92,7 @@ nav {
   line-height: 90px;
   padding-inline: 9vw;
   background: (--body-color);
-  transition: 3s;
+  transition: 0.3s;
   z-index: 100;
 }
 .nav-logo {
@@ -121,14 +122,50 @@ nav {
   text-decoration: none;
   color: var(--text-color-second);
   font-weight: 500;
+  padding-inline: 15px;
   margin-inline: 20px;
 }
 .nav-menu-btn {
-  /* display: none; */
+  display: none;
 }
 .nav-menu-btn i {
   font-size: 28px;
   cursor: pointer;
 }
 
+/*--Wrapper Design--*/
+.wrapper {
+  height: 150vh;
+}
+
 /*--Media Query = 900px  Responsive--*/
+@media only screen and (max-width: 900px) {
+  .nav-button {
+    display: none;
+  }
+  .nav-menu.responsive {
+    left: 0;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    min-height: 450px;
+    height: 90vh;
+    transition: 0.3s;
+  }
+  .nav_menu_list {
+    flex-direction: column;
+  }
+  .nav-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

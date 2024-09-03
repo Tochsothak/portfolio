@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--icon-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!--Favicon-->
-    <link
-      rel="shortcut icon"
-      href="assets/images/logo.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
     <title>Sothak Portfolio</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <!------Header------->
-      <nav class="header">
-        <div class="nav-logo">
-          <p class="nav-name">Sothak</p>
-          <span>.</span>
-        </div>
-        <div class="nav-menu" id="myNavMenu">
-          <ul class="nav_menu_list">
-            <li class="nav_list">
-              <a href="#home" class="nav-link">Home</a>
-              <div class="circle"></div>
-            </li>
+        <!------Header------->
+        <nav class="header">
+            <div class="nav-logo">
+                <p class="nav-name">Sothak</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
 
-            <li class="nav_list">
-              <a href="#about" class="nav-link">About</a>
-              <div class="circle"></div>
-            </li>
-            <li class="nav_list">
-              <a href="#project" class="nav-link">Project</a>
-              <div class="circle"></div>
-            </li>
-            <li class="nav_list">
-              <a href="#contact" class="nav-link">Contact</a>
-              <div class="circle"></div>
-            </li>
-          </ul>
-        </div>
-        <div class="nav-button">
-          <button class="btn uim uim-search">
-            Download CV <i class="fa-regular fa-file"></i></i>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#project" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn uim uim-search">
+            Download CV <i class="fa-regular fa-file"></i>
           </button>
-        </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
 
-        <div class="nav-menu-btn">
-          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
-        </div>
-      </nav>
-      <!------Main------->
-
-      <!------Footer------->
+        <!------Main------->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="feattured-text">
+                    <div class="featured-text-card">
+                        <span> Sothak </span>
+                    </div>
+                    <div class="featured-name">
+                        <p><span class="typeText">Developer</span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eius ipsum inventore soluta .
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn blue-btn">
+                Download CV <i class="fa-regular fa-file"></i>
+              </button>
+                    </div>
+                    <div class="social-icons">
+                        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!------Footer------->
     </div>
+
     <!--type js link-->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!--scroll reveal js link-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--main js-->
     <script src="./assets/js/main.js"></script>
-  </body>
+</body>
+
 </html>
