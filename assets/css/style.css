@@ -171,7 +171,7 @@ nav {
   color: var(--text-color-second);
   margin-block: 20px;
 }
-.typeText {
+.typedText {
   text-transform: capitalize;
   color: var(--text-color-third);
 }
