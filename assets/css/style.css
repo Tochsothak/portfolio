@@ -53,7 +53,7 @@ html {
 .btn {
   font-weight: 500;
   padding: 12px 20px;
-  background: #ccc;
+  background: #efefef;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -118,6 +118,7 @@ nav {
   list-style: none;
   position: relative;
 }
+
 .nav-link {
   text-decoration: none;
   color: var(--text-color-second);
@@ -125,6 +126,15 @@ nav {
   padding-inline: 15px;
   margin-inline: 20px;
 }
+.nav-link:hover,
+.nav-link.active {
+  color: var(--first-color);
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px;
+  transition: 0.3s;
+}
+//Active link
 .nav-menu-btn {
   display: none;
 }
@@ -196,6 +206,10 @@ nav {
   margin-top: 5em;
   gap: 30px;
 }
+.social_icons a,
+.footer-social-icons a {
+  text-decoration: none;
+}
 .icon {
   display: flex;
   justify-content: center;
@@ -233,7 +247,7 @@ nav {
 @keyframes imgFloat {
   50% {
     transform: translateY(10px);
-    border-radius: 45% 55% 45% 55%;
+    border-radius: 5% 5% 5% 5%;
   }
 }
 /*Scroll Button*/
@@ -356,6 +370,7 @@ h3 {
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
+  padding: 15px;
 }
 .project-box > i {
   font-size: 50px;

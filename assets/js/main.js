@@ -27,7 +27,7 @@ function headerShadow() {
 }
 /*--Typing Effect--*/
 var typingEffect = new Typed(".typedText", {
-    strings: ["a Software Developmet Student"],
+    strings: ["a Software Development Student"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 80,
@@ -74,8 +74,23 @@ const srRight = ScrollReveal({
 srRight.reveal(".skills-box", { delay: 100 });
 srRight.reveal(".form-control", { delay: 100 });
 
-const section = document.querySelector("section[id]");
+/*--Change Active link--*/
+let sections = document.querySelectorAll("section");
+let navLinks = document.querySelectorAll("header a");
 
-function scrollY() {
-    scrollY = window.scrollY;
-}
+window.onscroll = () => {
+    sections.forEach((sec) => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute("id");
+        if (top >= offset && top < offset + height) {
+            navLinks.forEach((links) => {
+                links.classList.remove("active");
+                document
+                    .querySelector(".nav-link[href*=" + id + "]")
+                    .classList.add("active");
+            });
+        }
+    });
+};
