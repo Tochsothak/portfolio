@@ -128,13 +128,13 @@ nav {
 }
 .nav-link:hover,
 .nav-link.active {
-  color: var(--first-color);
+  color: var(--text-color-third);
 
   border-radius: 10px;
-  box-shadow: 1px 1px 1px;
+  box-shadow: 1px 1px 1px var(--first-shadow-color);
   transition: 0.3s;
 }
-//Active link
+
 .nav-menu-btn {
   display: none;
 }
@@ -377,6 +377,10 @@ h3 {
   color: #00b5e7;
   margin-bottom: 25px;
 }
+.project-box > h2 {
+  color: #00b5e7;
+}
+
 .project-box label {
   font-size: 15px;
   color: #777;
@@ -398,7 +402,8 @@ h3 {
 }
 .project-box:hover.project-box > i,
 .project-box:hover.project-box > h3,
-.project-box:hover.project-box > label {
+.project-box:hover.project-box > label,
+.project-box:hover.project-box > h2 {
   color: var(--color-white);
   z-index: 2;
 }
