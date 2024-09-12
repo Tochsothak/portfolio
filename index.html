@@ -1,288 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--icon-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!--Favicon-->
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
     <title>Sothak Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!------Header------->
-        <nav class="header" id="header">
-            <div class="nav-logo">
-                <p class="nav-name">Sothak</p>
-                <span>.</span>
-            </div>
-            <header class="nav-menu" id="myNavMenu">
-                <ul class="nav_menu_list">
-                    <li class="nav_list">
-                        <a href="#home" class="nav-link active">Home</a>
-                        <div class="circle"></div>
-                    </li>
+      <!------Header------->
+      <nav class="header" id="header">
+        <a href="#home" class="nav-logo">
+          <p class="nav-name">Sothak</p>
+          <span>.</span>
+        </a>
+        <header class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active">Home</a>
+              <div class="circle"></div>
+            </li>
 
-                    <li class="nav_list">
-                        <a href="#about" class="nav-link">About</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#project" class="nav-link">Projects</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#contact" class="nav-link">Contact</a>
-                        <div class="circle"></div>
-                    </li>
-                </ul>
-            </header>
-            <div class="nav-button">
-                <a href="./assets/images/Resume_2024.pdf" download="Resume_2024.pdf">
-                    <button class="btn">
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#project" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </header>
+        <div class="nav-button">
+          <a href="./assets/images/Resume_2024.pdf" download="Resume_2024.pdf">
+            <button class="btn">
               Download CV <i class="fa-regular fa-file"></i>
             </button>
-                </a>
-            </div>
-            <div class="nav-menu-btn">
-                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
-            </div>
-        </nav>
+          </a>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
 
-        <!------Main------->
-        <main class="wrapper">
-            <!--Featured Box-->
-            <section class="featured-box" id="home">
-                <div class="featured-text">
-                    <div class="featured-text-card">
-                        <span> Sothak </span>
-                    </div>
-                    <div class="featured-name">
-                        <p>I'm <span class="typedText"></span></p>
-                    </div>
-                    <div class="featured-text-info">
-                        <p>
-                            Passionate and dedicated Computer Science student with a good foundation in software development
-                        </p>
-                    </div>
-                    <div class="featured-text-btn">
-                        <button class="btn blue-btn">Hire Me</button>
-                        <a href="./assets/images/Resume_2024.pdf" download="Resume_2024.pdf"><button class="btn">
+      <!------Main------->
+      <main class="wrapper">
+        <!--Featured Box-->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span> Sothak </span>
+            </div>
+            <div class="featured-name">
+              <p>Hi! <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                I'm Sothak, a second-year Software Development student
+                passionate about creating innovative and efficient software
+                solutions. Explore my projects and skills below
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#contact" class="btn blue-btn">Hire Me</a>
+              <a
+                href="./assets/images/Resume_2024.pdf"
+                download="Resume_2024.pdf"
+                ><button class="btn">
                   Download CV <i class="fa-regular fa-file"></i></button
               ></a>
-                    </div>
-                    <div class="social_icons">
-                        <a class="icon" href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i
+            </div>
+            <div class="social_icons">
+              <a
+                class="icon"
+                href="https://www.instagram.com/?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
               ></a>
-                        <a class="icon" href="https://github.com/Tochsothak" target="_blank"><i class="fa-brands fa-github"></i
+              <a
+                class="icon"
+                href="https://github.com/Tochsothak"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
               ></a>
-                        <a class="icon" href="https://web.facebook.com/me/" target="_blank"><i class="fa-brands fa-facebook"></i
+              <a
+                class="icon"
+                href="https://web.facebook.com/me/"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
               ></a>
-                        <a class="icon"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <div class="featured-image">
-                    <div class="image">
-                        <img src="assets/images/thak.jpg" alt="avatar" />
-                    </div>
-                </div>
-                <div class="scroll-icon-box">
-                    <a href="#about" class="scroll-btn">
-                        <i class="fa-solid fa-computer-mouse"></i>
-                        <p>scroll down</p>
-                    </a>
-                </div>
-            </section>
-            <!--About Box-->
-            <section class="section" id="about">
-                <div class="top-header">
-                    <h1>About Me</h1>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="about-info">
-                            <h3>My indroduction</h3>
-                            <p>
-                                I am currently a second-year Software Development student with a deep passion for coding and technology. My academic journey has equipped me with a strong foundation in programming languages, software engineering principles, and web development. I am
-                                particularly interested in leveraging modern frameworks like React.js and backend technologies such as Laravel to build robust and user-friendly applications.
-                            </p>
-                            <div class="about-btn">
-                                <a href="./assets/images/Resume_2024.pdf" download="Resume_2024.pdf">
-                                    <button class="btn">
+              <a
+                class="icon"
+                href="https://www.linkedin.com/in/toch-sothak-6aa251328/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2Fgp1%2BYb8TbWNw%2FJYVk3mQw%3D%3D"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/images/profile.jpg" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="fa-solid fa-computer-mouse"></i>
+              <p>scroll down</p>
+            </a>
+          </div>
+        </section>
+        <!--About Box-->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My indroduction</h3>
+                <p>
+                  I am currently a second-year Software Development student with
+                  a deep passion for coding and technology. My academic journey
+                  has equipped me with a strong foundation in programming
+                  languages, software engineering principles, and web
+                  development. I am particularly interested in leveraging modern
+                  frameworks like React.js and backend technologies such as
+                  Laravel to build robust and user-friendly applications.
+                </p>
+                <div class="about-btn">
+                  <a
+                    href="./assets/images/Resume_2024.pdf"
+                    download="Resume_2024.pdf"
+                  >
+                    <button class="btn">
                       Download CV<i class="fa-solid fa-download"></i>
                     </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Frontend</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>BootStrap</span>
-                                <span>JavaScript</span>
-                                <span>Vue</span>
-                                <span>React</span>
-                                <span>Angular</span>
-                            </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Backend</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>PHP</span>
-                                <span>C++</span>
-                            </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Database</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>MySql</span>
-                                <span>SqlServer</span>
-                            </div>
-                        </div>
-                    </div>
+                  </a>
                 </div>
-            </section>
-            <!--Project box-->
-            <section class="section" id="project">
-                <div class="top-header">
-                    <h1>Assignments</h1>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Programing</h3>
                 </div>
-                <div class="project-container">
-                    <div class="project-box">
-                        <i class="fa-brands fa-html5"></i>
-                        <h3>Wheather App</h3>
-                        <label>Built a weather forecasting application using HTML ,CSS and
-                JavaScript and the OpenWeatherMap API. Implemented features like
-                weather updates, search functionality, and user location
-                tracking.</label
-              >
+                <div class="skills-list">
+                  <span>C#</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Php</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Framework</h3>
+                </div>
+                <div class="skills-list">
+                  <span>ASP.NET</span>
+                  <span>React.js</span>
+                  <span>Node.js</span>
+                  <span>Angular</span>
+                  <span>Laravel</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>SqlServer</span>
+                  <span>MySql</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Project box-->
+        <section class="section" id="project">
+          <div class="top-header">
+            <h1>Projects & Assignments</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <div class="project-info">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Weather App</h3>
+                <label
+                  >Built a weather forecasting application using HTML ,CSS and
+                  JavaScript and the OpenWeatherMap API. Implemented features
+                  like weather updates, search functionality, and user location
+                  tracking.
+                </label>
+                <a href="https://github.com/Tochsothak/Whether-Forecast.git"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+              <div class="project-img">
+                <img src="./assets/images/Weather-forecast.png" />
+              </div>
             </div>
             <div class="project-box">
-              <i class="fa-brands fa-html5"></i>
-              <h3>Portfolio Website</h3>
-              <label>
-                Developed a responsive personal portfolio website using HTML,
-                CSS, and JavaScript. Integrated a contact form with email
-                functionality. Deployed the website on GitHub Pages.</label
-              >
+              <div class="project-info">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Favorite App</h3>
+                <label
+                  >Create a simple app that displays information about my
+                  favorite book, band and recipe using React functional
+                  components and JSX syntax.
+                </label>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <div class="project-img">
+                <img src="./assets/images/favorite.png" />
+              </div>
             </div>
             <div class="project-box">
-              <i class="fa-brands fa-react"></i>
-              <h3>Favorite App</h3>
-              <label
-                >Create a simple app that displays information about my favorite
-                book, band and recipe using React functional components and JSX
-                syntax.</label
-              >
+              <div class="project-info">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Portfolio Website</h3>
+                <label
+                  >Developed a responsive personal portfolio website using HTML,
+                  CSS, and JavaScript. Integrated a contact form with email
+                  functionality. Deployed the website on GitHub Pages.
+                </label>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <div class="project-img">
+                <img src="./assets/images/portfolio.png" />
+              </div>
             </div>
-            <div class="project-box">
-              <h2>ASP.NET</h2>
-              <h3>Classmate App</h3>
-              <label
-                >built a project with the ASP.NET Core Web App (Razor page)
-                template.A Home page contains a list of students in group PT SD
-                14. Each item (student) in the list contains Photo, full name,
-                gender, and hobbies.Add a student profile page that link from
-                the home page to this page when clicking on the photo.
-              </label>
-                    </div>
-                    <div class="project-box">
-                        <i class="fa-brands fa-laravel"></i>
-                        <h3>English Premier League</h3>
-                        <label>Built a web project English Premier League Football. The main
-                objective is to provide a userfriendly interface for reading and
-                posting information about the Premier League using Laravel 11
-                and mySql.
-              </label>
-                    </div>
-                </div>
-            </section>
-            <!--Contact Box-->
-            <section class="section" id="contact">
-                <div class="top-header">
-                    <h1>Get in Touch</h1>
-                    <span>Do you have project in mind, contact me here.</span>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="contact-info">
-                            <h2>Find Me <i class="fa-regular fa-hand-point-down"></i></h2>
-                            <p>
-                                <i class="fa-regular fa-envelope"></i> Email: tochsothak882@gmail.com
-                            </p>
-                            <p><i class="fa-solid fa-phone"></i> Tel: +855 884 788 421</p>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <div class="form-inputs">
-                            <input type="text" class="input-field" placeholder="name" />
-                            <input type="text" class="input-field" placeholder="Email" />
-                        </div>
-                        <div class="text-area">
-                            <textarea name="" id="" placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-button">
-                            <button class="btn">
+          </div>
+        </section>
+        <!--Contact Box-->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in Touch</h1>
+            <span>contact me here.</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="fa-regular fa-hand-point-down"></i></h2>
+                <p>
+                  <i class="fa-regular fa-envelope"></i> Email:
+                  tochsothak882@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i> Tel: +855 884 788 421</p>
+              </div>
+            </div>
+            <form
+              class="form-control"
+              action="https://api.web3forms.com/submit"
+              method="POST"
+            >
+              <div class="form-inputs">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="05f8e977-8623-4ebb-83f7-f84a1b19b9c1"
+                />
+                <input
+                  type="text"
+                  class="input-field"
+                  placeholder="name"
+                  name="name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="input-field"
+                  placeholder="Email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="text-area">
+                <textarea
+                  name="message"
+                  id=""
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-button">
+                <button class="btn" type="submit">
                   Send <i class="fa-solid fa-file-import"></i>
                 </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
 
-        <!------Footer------->
-        <footer>
-            <div class="top-footer">
-                <p>Toch Sothak.</p>
-            </div>
-            <div class="middle-footer">
-                <ul class="footer-menu">
-                    <li class="footer_menu_list">
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="footer_menu_list">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="footer_menu_list">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="footer_menu_list">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-social-icons">
-                <a class="icon" href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i
+      <!------Footer------->
+      <footer>
+        <div class="top-footer">
+          <p>Toch Sothak.</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <a
+            class="icon"
+            href="https://www.instagram.com/?hl=en"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
           ></a>
-                <a class="icon" href="https://github.com/Tochsothak" target="_blank"><i class="fa-brands fa-github"></i
+          <a class="icon" href="https://github.com/Tochsothak" target="_blank"
+            ><i class="fa-brands fa-github"></i
           ></a>
-                <a class="icon" href="https://web.facebook.com/me/" target="_blank"><i class="fa-brands fa-facebook"></i
+          <a class="icon" href="https://web.facebook.com/me/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
           ></a>
-                <a class="icon"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <div class="bottom-footer">
-                <p>
-                    Copy &copy;
-                    <a href="#home" style="text-decoration: none"></a> All rights Reserved.
-                </p>
-            </div>
-        </footer>
+          <a
+            class="icon"
+            href="https://www.linkedin.com/in/toch-sothak-6aa251328/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2Fgp1%2BYb8TbWNw%2FJYVk3mQw%3D%3D"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copy &copy;
+            <a href="#home" style="text-decoration: none"></a> All rights
+            Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
 
     <!--type js link-->
@@ -291,6 +368,5 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--main js-->
     <script src="./assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
