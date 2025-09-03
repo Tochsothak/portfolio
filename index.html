@@ -12,15 +12,17 @@
       referrerpolicy="no-referrer"
     />
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/project-styles.css" />
+   <link rel="stylesheet" href="./assets/css/style.css" />
+     <link rel="stylesheet" href="./assets/css/project-styles-clean.css" />
+    <link rel="stylesheet" href="./assets/css/about-enhanced.css" />
+    
     <!--Favicon-->
     <link
       rel="shortcut icon"
       href="assets/images/logo.png"
       type="image/x-icon"
     />
-    <title>Sothak Portfolio</title>
+    <title>Toch Sothak - Full-Stack Developer Portfolio</title>
   </head>
 
   <body>
@@ -28,7 +30,7 @@
       <!------Header------->
       <nav id="header">
         <a href="#home" class="nav-logo">
-          <p class="nav-name">Sothak</p>
+          <p class="nav-name">Toch Sothak</p>
           <span>.</span>
         </a>
         <div class="nav-menu" id="myNavMenu">
@@ -42,7 +44,6 @@
               <div class="circle"></div>
             </li>
             <li class="nav_list">
-              <!-- FIXED: Changed from #project to #projects -->
               <a href="#projects" class="nav-link">Projects</a>
               <div class="circle"></div>
             </li>
@@ -53,7 +54,7 @@
           </ul>
         </div>
         <div class="nav-button">
-          <a href="./assets/images/mainResume.pdf" download="mainResume.pdf">
+          <a href="./assets/images/resume.pdf" download="Toch_Sothak_Resume.pdf">
             <button class="btn">
               Download CV <i class="fa-regular fa-file"></i>
             </button>
@@ -70,28 +71,27 @@
         <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
-              <span> Sothak </span>
+              <span>Toch Sothak</span>
             </div>
             <div class="featured-name">
-              <p> <span class="typedText"></span></p>
+              <p><span class="typedText"></span></p>
             </div>
             <div class="featured-text-info">
               <p>
-                I'm Sothak, a second-year Software Development student
-                passionate about creating innovative and efficient software
-                solutions. Explore my projects and skills below
+                A highly motivated and adaptable full-stack developer specializing in Flutter and Laravel, 
+                with a strong foundation in mobile and web application development. Currently in the final 
+                term at IT Academy STEP Cambodia, seeking opportunities in mobile app development.
               </p>
             </div>
             <div class="featured-text-btn">
               <a href="#contact" class="btn blue-btn">Hire Me</a>
-              <!--Download CV-->
-               <div class="nav-button">
-          <a href="./assets/images/mainResume.pdf" download="mainResume.pdf">
-            <button class="btn">
-              Download CV <i class="fa-regular fa-file"></i>
-            </button>
-          </a>
-        </div>
+              <div class="nav-button">
+                <a href="./assets/images/resume.pdf" download="Toch_Sothak_Resume.pdf">
+                  <button class="btn">
+                    Download CV <i class="fa-regular fa-file"></i>
+                  </button>
+                </a>
+              </div>
             </div>
             <div class="social_icons">
               <a 
@@ -134,7 +134,7 @@
           </div>
           <div class="featured-image">
             <div class="image">
-              <img src="assets/images/linkedIn-profile.png" alt="Sothak Profile Picture" />
+              <img src="assets/images/linkedIn-profile.png" alt="Toch Sothak Profile Picture" />
             </div>
           </div>
           <div class="scroll-icon-box">
@@ -145,85 +145,409 @@
           </div>
         </section>
 
-        <!--About Box-->
-        <section class="section" id="about">
+        <!--About Box - Enhanced with Background Images-->
+        <section class="section about-enhanced" id="about">
           <div class="top-header">
             <h1>About Me</h1>
             <span>Get to know me better</span>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="about-info">
-                <h3>My Introduction</h3>
-                <p>
-                  I am currently a second-year Software Development student with
-                  a deep passion for coding and technology. My academic journey
-                  has equipped me with a strong foundation in programming
-                  languages, software engineering principles, and web
-                  development. I am particularly interested in leveraging modern
-                  frameworks like React.js and backend technologies such as
-                  Laravel to build robust and user-friendly applications.
-                </p>
-                <div class="about-btn">
-                  <a
-                    href="./assets/images/Resume_2024.pdf"
-                    download="Resume_2024.pdf"
-                  >
-                    <button class="btn">
-                      Download CV<i class="fa-solid fa-download"></i>
-                    </button>
-                  </a>
+          
+          <!-- Enhanced About Content with Background Images -->
+          <div class="about-content-wrapper">
+            <!-- Left Side - Text Content with Overlay -->
+            <div class="about-text-section">
+              <div class="about-text-overlay">
+                <div class="about-info-enhanced">
+                  <div class="about-badge">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Full-Stack Developer</span>
+                  </div>
+                  
+                  <h3>Summary</h3>
+                  <p class="intro-text">
+                    A highly motivated and adaptable <strong>full-stack developer</strong> specializing in 
+                    <span class="highlight">Flutter</span> and <span class="highlight">Laravel</span>, with a strong foundation in mobile and web application development. 
+                    Currently in the final term at <strong>IT Academy STEP Cambodia</strong>, I am seeking an entry-level position 
+                    in mobile app development to apply my skills in building robust, user-centric applications.
+                  </p>
+                  
+                  <p class="intro-text">
+                    Proficient in a wide range of programming languages and frameworks, with a proven ability to learn 
+                    new technologies and deliver impactful projects. Experienced in <span class="highlight">full-stack development</span>, 
+                    <span class="highlight">mobile app development</span>, and <span class="highlight">RESTful APIs</span>.
+                  </p>
+                  
+                  <!-- Achievement Stats -->
+                  <div class="achievement-stats">
+                    <div class="stat-item">
+                      <div class="stat-number">10+</div>
+                      <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                      <div class="stat-number">2</div>
+                      <div class="stat-label">Certificates</div>
+                    </div>
+                    <div class="stat-item">
+                      <div class="stat-number">3+</div>
+                      <div class="stat-label">Years Learning</div>
+                    </div>
+                  </div>
+                  
+                  <!-- Education Section -->
+                  <div class="education-section">
+                    <h4 style="
+                      font-size: 1.1rem;
+                      font-weight: 600;
+                      color: #2d3748;
+                      margin: 1.5rem 0 1rem 0;
+                      display: flex;
+                      align-items: center;
+                      gap: 0.5rem;
+                    ">
+                      <i class="fa-solid fa-graduation-cap" style="
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                      "></i>
+                      Education
+                    </h4>
+                    
+                    <div class="education-item" style="
+                      background: rgba(102, 126, 234, 0.1);
+                      border: 1px solid rgba(102, 126, 234, 0.2);
+                      border-radius: 12px;
+                      padding: 1rem;
+                      margin-bottom: 1rem;
+                    ">
+                      <h5 style="
+                        margin: 0 0 0.25rem 0;
+                        font-size: 0.95rem;
+                        font-weight: 600;
+                        color: #2d3748;
+                      ">IT Academy STEP Cambodia</h5>
+                      <p style="
+                        margin: 0 0 0.5rem 0;
+                        font-size: 0.85rem;
+                        color: #667eea;
+                        font-weight: 500;
+                      ">Software Development Student | Phnom Penh, Cambodia</p>
+                      <p style="
+                        margin: 0;
+                        font-size: 0.8rem;
+                        color: #718096;
+                        line-height: 1.4;
+                      "><strong>Relevant Coursework:</strong> Web Development, Data Structures and Algorithms, 
+                      Object-Oriented Programming, Database Management Systems, Mobile App Development, Game Development (Unity)</p>
+                    </div>
+                  </div>
+                  
+                  <!-- Certificates Section -->
+                  <div class="certificates-section">
+                    <h4 style="
+                      font-size: 1.1rem;
+                      font-weight: 600;
+                      color: #2d3748;
+                      margin: 1.5rem 0 1rem 0;
+                      display: flex;
+                      align-items: center;
+                      gap: 0.5rem;
+                    ">
+                      <i class="fa-solid fa-certificate" style="
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                      "></i>
+                      Professional Certificates
+                    </h4>
+                    
+                    <div class="certificate-list" style="
+                      display: flex;
+                      flex-direction: column;
+                      gap: 0.75rem;
+                      margin-bottom: 1.5rem;
+                    ">
+                      <div class="certificate-item" style="
+                        background: rgba(102, 126, 234, 0.1);
+                        border: 1px solid rgba(102, 126, 234, 0.2);
+                        border-radius: 12px;
+                        padding: 1rem;
+                        transition: all 0.3s ease;
+                      ">
+                        <div style="display: flex; align-items: center; gap: 0.75rem;">
+                          <i class="fa-brands fa-aws" style="
+                            font-size: 1.5rem;
+                            color: #ff9900;
+                          "></i>
+                          <div>
+                            <h5 style="
+                              margin: 0 0 0.25rem 0;
+                              font-size: 0.95rem;
+                              font-weight: 600;
+                              color: #2d3748;
+                            ">AWS Education Introduction to Cloud 101</h5>
+                            <p style="
+                              margin: 0;
+                              font-size: 0.8rem;
+                              color: #718096;
+                              font-weight: 500;
+                            ">Amazon Web Services</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="certificate-item" style="
+                        background: rgba(102, 126, 234, 0.1);
+                        border: 1px solid rgba(102, 126, 234, 0.2);
+                        border-radius: 12px;
+                        padding: 1rem;
+                        transition: all 0.3s ease;
+                      ">
+                        <div style="display: flex; align-items: center; gap: 0.75rem;">
+                          <i class="fa-solid fa-network-wired" style="
+                            font-size: 1.5rem;
+                            color: #1ba0d7;
+                          "></i>
+                          <div>
+                            <h5 style="
+                              margin: 0 0 0.25rem 0;
+                              font-size: 0.95rem;
+                              font-weight: 600;
+                              color: #2d3748;
+                            ">IT Essentials</h5>
+                            <p style="
+                              margin: 0;
+                              font-size: 0.8rem;
+                              color: #718096;
+                              font-weight: 500;
+                            ">Cisco Networking Academy</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Languages Section -->
+                  <div class="languages-section">
+                    <h4 style="
+                      font-size: 1.1rem;
+                      font-weight: 600;
+                      color: #2d3748;
+                      margin: 1.5rem 0 1rem 0;
+                      display: flex;
+                      align-items: center;
+                      gap: 0.5rem;
+                    ">
+                      <i class="fa-solid fa-language" style="
+                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;
+                      "></i>
+                      Languages
+                    </h4>
+                    
+                    <div class="language-list" style="
+                      display: flex;
+                      gap: 1rem;
+                      margin-bottom: 1.5rem;
+                    ">
+                      <div class="language-item" style="
+                        background: rgba(102, 126, 234, 0.1);
+                        border: 1px solid rgba(102, 126, 234, 0.2);
+                        border-radius: 12px;
+                        padding: 0.75rem 1rem;
+                        text-align: center;
+                        flex: 1;
+                      ">
+                        <h5 style="
+                          margin: 0 0 0.25rem 0;
+                          font-size: 0.9rem;
+                          font-weight: 600;
+                          color: #2d3748;
+                        ">Khmer</h5>
+                        <p style="
+                          margin: 0;
+                          font-size: 0.8rem;
+                          color: #718096;
+                        ">Native</p>
+                      </div>
+                      
+                      <div class="language-item" style="
+                        background: rgba(102, 126, 234, 0.1);
+                        border: 1px solid rgba(102, 126, 234, 0.2);
+                        border-radius: 12px;
+                        padding: 0.75rem 1rem;
+                        text-align: center;
+                        flex: 1;
+                      ">
+                        <h5 style="
+                          margin: 0 0 0.25rem 0;
+                          font-size: 0.9rem;
+                          font-weight: 600;
+                          color: #2d3748;
+                        ">English</h5>
+                        <p style="
+                          margin: 0;
+                          font-size: 0.8rem;
+                          color: #718096;
+                        ">Intermediate</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="about-btn-enhanced">
+                    <a href="./assets/images/resume.pdf" download="Toch_Sothak_Resume.pdf" class="btn-primary">
+                      <i class="fa-solid fa-download"></i>
+                      Download CV
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                      <i class="fa-solid fa-message"></i>
+                      Let's Talk
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
-          <div class="skills-container">
-            <div class="skills-box">
-              <div class="skills-header">
-                <h3>Programming Languages</h3>
+            
+            <!-- Right Side - Image Gallery -->
+            <div class="about-image-section">
+              <div class="image-gallery">
+                <!-- Main Featured Image -->
+                <div class="main-image">
+                  <img src="assets/images/i.jpg" alt="Toch Sothak at Tech Workshop" />
+                  <div class="image-overlay">
+                    <span class="image-caption">SQL Server course.</span>
+                  </div>
+                </div>
+                
+                <!-- Secondary Images -->
+                <div class="secondary-images">
+                  <div class="image-item">
+                    <img src="assets/images/k.jpg" alt="Coding Competition" />
+                    <div class="image-overlay">
+                      <span class="image-caption">Programming Foundation</span>
+                    </div>
+                  </div>
+                  <div class="image-item">
+                    <img src="assets/images/j.jpg" alt="CISCO IT Essential" />
+                    <div class="image-overlay">
+                      <span class="image-caption">CISCO IT Essential Course.</span>
+                    </div>
+                  </div>
+                  <div class="image-item">
+                    <img src="assets/images/a.jpg" alt="Volunteer" />
+                    <div class="image-overlay">
+                      <span class="image-caption">Volunteer</span>
+                    </div>
+                  </div>
+                  <div class="image-item">
+                    <img src="assets/images/d.jpg" alt="Volunteer" />
+                    <div class="image-overlay">
+                      <span class="image-caption">Volunteer</span>
+                    </div>
+                  </div>
+                  <div class="image-item">
+                    <img src="assets/images/e.jpg" alt="Volunteer" />
+                    <div class="image-overlay">
+                      <span class="image-caption">Volunteer</span>
+                    </div>
+                  </div>
+                  
+                </div>
               </div>
-              <div class="skills-list">
-                <span>C#</span>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>PHP</span>
-                <span>Python</span>
-              </div>
-            </div>
-
-            <div class="skills-box">
-              <div class="skills-header">
-                <h3>Frameworks & Libraries</h3>
-              </div>
-              <div class="skills-list">
-                <span>ASP.NET</span>
-                <span>React.js</span>
-                <span>Node.js</span>
-                <span>Angular</span>
-                <span>Laravel</span>
-                <span>Bootstrap</span>
-              </div>
-            </div>
-
-            <div class="skills-box">
-              <div class="skills-header">
-                <h3>Databases & Tools</h3>
-              </div>
-              <div class="skills-list">
-                <span>SQL Server</span>
-                <span>MySQL</span>
-                <span>MongoDB</span>
-                <span>Git</span>
-                <span>VS Code</span>
+              
+              <!-- Floating Elements -->
+              <div class="floating-elements">
+                <div class="floating-icon" style="top: 10%; left: 10%;">
+                  <i class="fa-brands fa-flutter"></i>
+                </div>
+                <div class="floating-icon" style="top: 20%; right: 15%;">
+                  <i class="fa-brands fa-laravel"></i>
+                </div>
+                <div class="floating-icon" style="bottom: 30%; left: 5%;">
+                  <i class="fa-brands fa-react"></i>
+                </div>
+                <div class="floating-icon" style="bottom: 10%; right: 10%;">
+                  <i class="fa-brands fa-github"></i>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          
+          <!-- Skills Section - Enhanced -->
+          <div class="skills-section-enhanced">
+            <div class="skills-container-enhanced">
+              <div class="skills-box-enhanced">
+                <div class="skills-header-enhanced">
+                  <i class="fa-solid fa-code"></i>
+                  <h3>Programming Languages</h3>
+                </div>
+                <div class="skills-list-enhanced">
+                  <span class="skill-tag">Dart</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">PHP</span>
+                  <span class="skill-tag">Java</span>
+                  <span class="skill-tag">C#</span>
+                  <span class="skill-tag">SQL</span>
+                  <span class="skill-tag">HTML</span>
+                  <span class="skill-tag">CSS</span>
+                </div>
+              </div>
+
+              <div class="skills-box-enhanced">
+                <div class="skills-header-enhanced">
+                  <i class="fa-solid fa-layer-group"></i>
+                  <h3>Frameworks & Libraries</h3>
+                </div>
+                <div class="skills-list-enhanced">
+                  <span class="skill-tag">Flutter</span>
+                  <span class="skill-tag">Laravel</span>
+                  <span class="skill-tag">React.js</span>
+                  <span class="skill-tag">Express.js</span>
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Spring Boot</span>
+                  <span class="skill-tag">ASP.NET</span>
+                  <span class="skill-tag">Bootstrap</span>
+                  <span class="skill-tag">TailwindCSS</span>
+                </div>
+              </div>
+
+              <div class="skills-box-enhanced">
+                <div class="skills-header-enhanced">
+                  <i class="fa-solid fa-database"></i>
+                  <h3>Databases & Tools</h3>
+                </div>
+                <div class="skills-list-enhanced">
+                  <span class="skill-tag">MySQL</span>
+                  <span class="skill-tag">MongoDB</span>
+                  <span class="skill-tag">Hive</span>
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">VS Code</span>
+                  <span class="skill-tag">Android Studio</span>
+                  <span class="skill-tag">Unity</span>
+                </div>
+              </div>
+
+              <div class="skills-box-enhanced">
+                <div class="skills-header-enhanced">
+                  <i class="fa-solid fa-brain"></i>
+                  <h3>Core Concepts</h3>
+                </div>
+                <div class="skills-list-enhanced">
+                  <span class="skill-tag">Full-Stack Development</span>
+                  <span class="skill-tag">Mobile App Development</span>
+                  <span class="skill-tag">Object-Oriented Programming</span>
+                  <span class="skill-tag">Data Structures & Algorithms</span>
+                  <span class="skill-tag">RESTful APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
-       <!--Project box-->
-       <!-- FIXED: Projects Section with proper structure -->
+        <!--Project box-->
         <section class="section" id="projects">
             <div class="top-header">
                 <h1>Projects</h1>
@@ -241,7 +565,6 @@
 
         <!--Contact Box-->
         <section class="section" id="contact">
-          
           <div class="top-header">
             <h1>Get in Touch</h1>
             <span>Contact me here</span>
@@ -257,7 +580,19 @@
                 <p><i class="fa-solid fa-phone"></i> Tel: +855 884 788 421</p>
                 <p>
                   <i class="fa-solid fa-location-dot"></i> Location: 
-                  Cambodia
+                  Cambodia, Phnom Penh, St 281
+                </p>
+                <p>
+                  <i class="fa-solid fa-globe"></i> Portfolio: 
+                  <a href="https://tochsothak.github.io/portfolio" target="_blank" style="color: #667eea; text-decoration: none;">
+                    tochsothak.github.io/portfolio
+                  </a>
+                </p>
+                <p>
+                  <i class="fa-brands fa-github"></i> GitHub: 
+                  <a href="https://github.com/Tochsothak" target="_blank" style="color: #667eea; text-decoration: none;">
+                    github.com/Tochsothak
+                  </a>
                 </p>
               </div>
             </div>
@@ -320,7 +655,6 @@
               <a href="#about">About</a>
             </li>
             <li class="footer_menu_list">
-              <!-- FIXED: Changed from #project to #projects -->
               <a href="#projects">Projects</a>
             </li>
             <li class="footer_menu_list">
@@ -366,6 +700,7 @@
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+      
         <div class="bottom-footer">
           <p>
             Copyright &copy; 2024 
@@ -382,7 +717,6 @@
     <!--FIXED: Correct script loading order-->
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/project-data.js"></script>
+  
   </body>
 </html>
-</qodoArtifact>
-
