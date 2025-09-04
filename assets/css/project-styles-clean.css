@@ -23,7 +23,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   display: flex !important;
   flex-direction: column !important;
-  height: 450px !important;
+  height: 500;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
   margin-bottom: 2rem !important;

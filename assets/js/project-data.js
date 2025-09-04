@@ -122,9 +122,7 @@ function generateProjectHTML(project) {
   return `
     <div class="project-box">
       <!-- Project Image -->
-      <div class="project-img">
-        <img src="${project.image}" alt="${project.title}" loading="lazy" />
-      </div>
+     
       
       <!-- Project Content -->
       <div class="project-content">
